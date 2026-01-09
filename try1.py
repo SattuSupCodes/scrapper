@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://www.donkey.bike/"
+url = "https://studiorenaissance.org/"
 response = requests.get(url, timeout=10)
 response.encoding = response.apparent_encoding
 

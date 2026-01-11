@@ -36,7 +36,7 @@ def scrape_trustpilot(url):
         except:
             print("No cookie popup")
 
-        # ---- Extract rating from JSON-LD (robust) ----
+        
         rating = None
         scripts = page.locator("script[type='application/ld+json']").all()
 
@@ -49,7 +49,7 @@ def scrape_trustpilot(url):
             except json.JSONDecodeError:
                 continue
 
-        # ---- Extract review count (already works) ----
+       
         review_count = page.locator(
             "[data-reviews-count-typography]"
         ).inner_text()
@@ -62,5 +62,5 @@ def scrape_trustpilot(url):
 
 if __name__ == "__main__":
     scrape_trustpilot(
-        "https://www.trustpilot.com/review/www.tripadvisor.com"
+        "https://www.trustpilot.com/review/pepperfry.com"
     )

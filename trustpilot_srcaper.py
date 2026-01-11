@@ -1,19 +1,57 @@
 from playwright.sync_api import sync_playwright
+import json
+
+def find_rating(obj):
+    if isinstance(obj, dict):
+        if "aggregateRating" in obj:
+            ar = obj["aggregateRating"]
+            if isinstance(ar, dict):
+                return ar.get("ratingValue")
+        for v in obj.values():
+            result = find_rating(v)
+            if result:
+                return result
+    elif isinstance(obj, list):
+        for item in obj:
+            result = find_rating(item)
+            if result:
+                return result
+    return None
+
 
 def scrape_trustpilot(url):
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(
+            headless=False,
+            slow_mo=300
+        )
         page = browser.new_page()
         page.goto(url, timeout=60000)
 
-        page.wait_for_selector("span[data-rating-component='rating']", timeout=60000)
+        page.wait_for_timeout(3000)
 
-        rating = page.locator(
-            "span[data-rating-component='rating']"
-        ).inner_text()
+        try:
+            page.locator("button:has-text('Accept')").click(timeout=5000)
+            print("Cookies accepted")
+        except:
+            print("No cookie popup")
 
+        # ---- Extract rating from JSON-LD (robust) ----
+        rating = None
+        scripts = page.locator("script[type='application/ld+json']").all()
+
+        for script in scripts:
+            try:
+                data = json.loads(script.inner_text())
+                rating = find_rating(data)
+                if rating:
+                    break
+            except json.JSONDecodeError:
+                continue
+
+        # ---- Extract review count (already works) ----
         review_count = page.locator(
-            "span[data-reviews-count-typography]"
+            "[data-reviews-count-typography]"
         ).inner_text()
 
         print("Rating:", rating)

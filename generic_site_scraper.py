@@ -1,6 +1,10 @@
 from playwright.sync_api import sync_playwright
 import re
 from urllib.parse import urlparse
+import json
+from datetime import datetime
+import os
+
 
 def scrape_company_site(url):
     with sync_playwright() as p:
@@ -30,7 +34,10 @@ def scrape_company_site(url):
 
         # ---- Emails ----
         html = page.content()
-        emails = list(set(re.findall(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}", html)))
+        emails = list(set(re.findall(
+            r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}",
+            html
+        )))
         data["emails"] = emails
 
         # ---- Social links ----
@@ -54,11 +61,25 @@ def scrape_company_site(url):
 
         data["socials"] = socials
 
-        print("\nSCRAPED WEBSITE DATA ↓↓↓\n")
-        print(data)
+        # ---- Metadata ----
+        data["scraped_at"] = datetime.utcnow().isoformat()
+        data["source_url"] = url
+
+        # ---- Save to JSON file ----
+        os.makedirs("data", exist_ok=True)
+
+        file_name = parsed.netloc.replace(".", "_") + ".json"
+        file_path = os.path.join("data", file_name)
+
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+
+        print("\nSCRAPED WEBSITE DATA\n")
+        print(json.dumps(data, indent=2))
+        print(f"\nSaved to {file_path}")
 
         browser.close()
 
 
 if __name__ == "__main__":
-    scrape_company_site("https://www.pepperfry.com/")
+    scrape_company_site("https://copic.jp/en/")

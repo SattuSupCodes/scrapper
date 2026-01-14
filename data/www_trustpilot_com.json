@@ -1,0 +1,65 @@
+{
+  "domain": "www.trustpilot.com",
+  "source_url": "https://www.trustpilot.com/review/www.tripadvisor.com",
+  "scraped_at": "2026-01-14T10:32:36.449439",
+  "title": "Tripadvisor Reviews | Read Customer Service Reviews of www.tripadvisor.com",
+  "meta_description": "How many stars would you give Tripadvisor? Join the 3,750 people who've already contributed. Your experience matters.",
+  "emails": [
+    "support@trustpilot.com",
+    "7ac98d0742b24421b3d38448c4bf1184@o211375.ingest.sentry.io",
+    "privacy@trustpilot.com"
+  ],
+  "socials": {
+    "linkedin": "https://www.linkedin.com/company/trustpilot/",
+    "twitter": "https://x.com/Trustpilot",
+    "instagram": "https://www.instagram.com/trustpilot/"
+  },
+  "images": [
+    "https://cdn.trustpilot.net/brand-assets/4.3.0/logo-white.svg",
+    "https://consumersiteimages.trustpilot.net/business-units/46d41b9b000064000500b9bc-198x149-1x.jpg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-2.svg",
+    "https://businessunitprofile-cdn.trustpilot.net/businessunitprofile-consumersite/public/trustpilot-shield.svg",
+    "https://user-images.trustpilot.com/68ed7fa88fb1d65656fbdef2/73x73.png",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-2.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-2.svg",
+    "https://user-images.trustpilot.com/68f3adf951e79351b314f08d/73x73.png",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-2.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-2.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-1.svg",
+    "https://user-images.trustpilot.com/6957139031cbb99c368607b9/73x73.png",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-1.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-1.svg",
+    "https://user-images.trustpilot.com/695f808f31cbb9d2f08eb307/73x73.png",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-1.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-1.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-1.svg",
+    "https://user-images.trustpilot.com/68ed3200b411c1a04fc25823/73x73.png",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-1.svg"
+  ],
+  "internal_pages": [
+    {
+      "url": "https://www.trustpilot.com/contact",
+      "title": "Contact Trustpilot",
+      "meta_description": "Contact Trustpilot for sales, pricing, or press inquiries. For help with Trustpilot products, visit our Help Center or submit a request. See the contact details for Trustpilot's global offices.",
+      "headings": {
+        "h1": [
+          "Contact us"
+        ],
+        "h2": [
+          "Want to get in touch? Learn how you can reach us",
+          "We use cookies"
+        ],
+        "h3": [
+          "How can we help?",
+          "Offices",
+          "Choose country",
+          "About",
+          "Community",
+          "Businesses",
+          "Follow us on"
+        ]
+      },
+      "text_sample": "Categories\nBlog\nLog in\nFor businesses\nContact us\nWant to get in touch? Learn how you can reach us\nHow can we help?\nHelp Center\n\nFind articles, videos, and more resources about how Trustpilot works.\n\nGo to Help Center\nPress site\n\nFor editiorial, media, and press inquiries.\n\nGo to Press site\nSales and pricing\n\nAsk about our plans, upgrades, services, and more.\n\nContact Sales\nSubmit a request\n\nNeed help? We’ll get back to you as soon as possible.\n\nSubmit request\nOffices\nAmsterdam\n\nC/O Herikerbergweg 238\nLuna ArenA\n1101 CM Amsterdam\nThe Netherlands\n\nPO Box 23393\n1100 DW Amsterdam\nThe Netherlands\n\nPhone\n\n+31 20 299 1600\n\nCopenhagen\n\nPilestræde 58\n5th floor\n1112 Copenhagen K\nDenmark\n\nPhone\n\n+45 32 75 99 14\n\nDenver\n\n3000 Lawrence St.\nSuite 201/202\nDenver\nCO 80205\nUnited States\n\nPhone\n\n+1 720 304 4473\n\nEdinburgh\n\n80 George St\n4th Floor\nEdinburgh EH2 3BU\nUnited Kingdom\n\nLondon\n\n5th Floor\nThe Minster Building\n21 Mincing Lane\nLondon EC3R 7AG\nUnited Kingdom\n\nPhone\n\n+44 208 135 2208\n\nMelbourne\n\nLevel 1\n55 Collins Street\nMelbourne\nVIC 3000\nAustralia\n\nMilan\n\nC/O Corso Vercelli 40\nMilan\nCAP 20145\nItaly\n\nPhone\n\n+39 02 9713 2838\n\nNew York\n\nSuite 1000\n50 West 23rd Street\nNew York, NY 10010\nUnited States\n\nPhone\n\n+1 646 349 3411\n\nSydney\n\nC/O Level 8\n171 Clarence Street\nSydney\nNSW 2000\nAustralia\n\nPhone\n\n+61 3 8669 1168\n\nHamburg\n\nEsplanade 40\n20354 Hamburg\nGermany\n\nChoose country\nUnited States\nAbout\nAbout us\nJobs\nContact\nBlog\nHow Trustpilot works\nPress\nInvestor Relations\nCommunity\nTrust in reviews\nHelp Center\nLog in\nSign up\nBusinesses\nTrustpilot Business\nProducts\nPlans & Pricing\nBusiness Login\nBlog for Business\nData Solutions\nFollow us on\nLegal\nPrivacy Policy\nTerms & Conditions\nGuidelines for Reviewers\nSystem status\nCookie preferences\nModern Slavery Statement\n© 2026 Trustpilot, Inc. All rights reserved.\nWe use cookies\nWe use cookies to personalize content and ads, to provide social media features, and to analyze our traffic. We also share information about your use of our site with our partners in social media, advertising, and analytics. By continuing to use our website, you accept the use of all cookies. You can always access and change your cookie preferences in the footer of this website.\nCookie preferences Got it"
+    }
+  ]
+}

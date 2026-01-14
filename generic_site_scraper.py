@@ -132,4 +132,4 @@ def scrape_company_site(url):
 
 
 if __name__ == "__main__":
-    scrape_company_site("https://copic.jp/en/")
+    scrape_company_site("https://www.meta.com/")

@@ -1,0 +1,78 @@
+{
+  "domain": "www.amazon.com",
+  "source_url": "https://www.amazon.com/",
+  "scraped_at": "2026-01-14T10:42:22.933335",
+  "title": "Amazon.com. Spend less. Smile more.",
+  "meta_description": "Free shipping on millions of items. Get the best of Shopping and Entertainment with Prime. Enjoy low prices and great deals on the largest selection of everyday essentials and other products, including fashion, home, beauty, electronics, Alexa Devices, sporting goods, toys, automotive, pets, baby, books, video games, musical instruments, office supplies, and more.",
+  "emails": [],
+  "socials": {
+    "linkedin": null,
+    "twitter": "https://www.acx.com/",
+    "instagram": null
+  },
+  "images": [
+    "https://fls-na.amazon.com/1/batch/1/OP/ATVPDKIKX0DER:143-6885507-7355223:4EERV9ER34NJXY2Z18R1$uedata=s:%2Frd%2Fuedata%3Fstaticb%26id%3D4EERV9ER34NJXY2Z18R1:0",
+    "https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB779528203_.png",
+    "https://m.media-amazon.com/images/I/71qcoYgEhzL._SX3000_.jpg",
+    "https://m.media-amazon.com/images/I/71GGl3UpyOL._SX3000_.jpg",
+    "https://m.media-amazon.com/images/I/619geyiQI5L._SX3000_.jpg",
+    "https://m.media-amazon.com/images/I/61Yx5-N155L._SX3000_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/CleaningTool_1x._SY116_CB563137408_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/HomeStorage_1x._SY116_CB563137408_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/HomeDecor_1x._SY116_CB563137408_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Bedding_1x._SY116_CB563137408_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_BOTTOMS_1x._SY116_CB624172947_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_TOPS_1x._SY116_CB623353881_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_DRESSES_1x._SY116_CB623353881_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2022/SITE_FLIPS/SPR_22/GW/DQC/DQC_APR_TBYB_W_SHOES_1x._SY116_CB624172947_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_315_HP_NewArrivals_QuadCard_D_01_1x._SY116_CB555960040_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_316_HP_NewArrivals_QuadCard_D_02_1x._SY116_CB555960040_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_317_HP_NewArrivals_QuadCard_D_03_1x._SY116_CB555960040_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/DiscoTec/2024/HomeLifestyle/HomeSummerFlip/Homepage/QuadCards/Home_Flip_Summer_2024_318_HP_NewArrivals_QuadCard_D_04_1x._SY116_CB555960040_.jpg",
+    "https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/LuxuryStores/Spring-23/GW/Quad_Cards/Spring/LSS23_SPRING_DT_CAT_CARD_2_x1._SY116_CB595261253_.jpg"
+  ],
+  "internal_pages": [
+    {
+      "url": "https://www.amazon.com/Dont-Think-About-Dinner-Nourishing/dp/0063425793/?_encoding=UTF8&pd_rd_w=jLvdy&content-id=amzn1.sym.9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_p=9929d3ab-edb7-4ef5-a232-26d90f828fa5&pf_rd_r=4EERV9ER34NJXY2Z18R1&pd_rd_wg=pPUOu&pd_rd_r=d2e52d2c-dc50-41f3-b32f-11a7374bbf59&ref_=pd_hp_d_btf_crs_zg_bs_283155",
+      "title": "Don’t Think About Dinner: Save Time and Money with 125+ Easy, Nourishing, Delicious Recipes for Every Meal: Lueke, Jenn: 9780063425798: Amazon.com: Books",
+      "meta_description": "Don’t Think About Dinner: Save Time and Money with 125+ Easy, Nourishing, Delicious Recipes for Every Meal [Lueke, Jenn] on Amazon.com. *FREE* shipping on qualifying offers. Don’t Think About Dinner: Save Time and Money with 125+ Easy, Nourishing, Delicious Recipes for Every Meal",
+      "headings": {
+        "h1": [
+          "Follow the author",
+          "Don’t Think About Dinner: Save Time and Money with 125+ Easy, Nourishing, Delicious Recipes for Every Meal Hardcover – January 13, 2026"
+        ],
+        "h2": [
+          "Skip to",
+          "Keyboard shortcuts",
+          "Frequently bought together",
+          "More items to explore",
+          "Customers also bought or read",
+          "What other items do customers buy after viewing this item?",
+          "From the Publisher",
+          "Editorial Reviews",
+          "Product details",
+          "Product Videos",
+          "About the author",
+          "Jenn Lueke",
+          "Products related to this item",
+          "Rate today's book shopping experience",
+          "Rate today's book shopping experience",
+          "Related books",
+          "Customer reviews"
+        ],
+        "h3": [
+          "Shipping & Fee Details",
+          " Sorry, there was a problem. ",
+          " Sorry, there was a problem. ",
+          " Purchase options and add-ons ",
+          "Review",
+          "About the Author",
+          "Reviews with images",
+          "Top reviews from the United States"
+        ]
+      },
+      "text_sample": "Skip to\nMain content\nBuying options\nVideos\nReviews\nKeyboard shortcuts\nSearch\nalt\n+\n/\nCart\nshift\n+\nalt\n+\nC\nHome\nshift\n+\nalt\n+\nH\nOrders\nshift\n+\nalt\n+\nO\nAdd to cart\nshift\n+\nalt\n+\nK\nShow/Hide shortcuts\nshift\n+\nalt\n+\nZ\nTo move between items, use your keyboard's up or down arrows.\nDeliver to\nIndia\nBooks\nAll Departments\nArts & Crafts\nAutomotive\nBaby\nBeauty & Personal Care\nBooks\nBoys' Fashion\nComputers\nDeals\nDigital Music\nElectronics\nGirls' Fashion\nHealth & Household\nHome & Kitchen\nIndustrial & Scientific\nKindle Store\nLuggage\nMen's Fashion\nMovies & TV\nMusic, CDs & Vinyl\nPet Supplies\nPrime Video\nSoftware\nSports & Outdoors\nTools & Home Improvement\nToys & Games\nVideo Games\nWomen's Fashion\nEN\nHello, sign in\nAccount & Lists\nReturns\n& Orders\n0\nCart\nWe're showing you items that ship to India. To see items that ship to a different country, change your delivery address.\nDismiss\n \nChange Address\nSign in\nNew customer? Start here.\nAll\nToday's Deals\nPrime Video\nRegistry\nGift Cards\nCustomer Service\nSell\nDisability Customer Support\nCategories\nNew & Trending\nDeals & Rewards\nBest Sellers & More\nMemberships\nMore\nYour Books\nSponsored \nBooks\n›\nCookbooks, Food & Wine\n›\nCooking Methods\n›\nBudget\nKindle\n\n\nINR 1,352.67\nAvailable instantly\nHardcover\n\n\nINR 2,209.03\nOther New from INR 2,209.03 \nINR 2,209.03 with 30 percent savings\n-30% \nINR2,209\n.\n03 \nList Price: INR 3,158.33\nList Price: \nINR3,158.33\nINR3,158.33 \nINR 2,935.44 Shipping & Import Charges to India Details \n\nINR 1,412.22 delivery Friday, February 6. Order within 6 hrs 27 mins\nDeliver to India\nIn Stock\n\nQuantity:\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83\n84\n85\n86\n87\n88\n89\n90\n91\n92\n93\n94\n95\n96\n97\n98\n99\n100\nQuantity:1\nAdd to cart\nBuy Now\nShipper / Seller\nAmazon.com\nReturns\n30-day refund / replacement\nPayment\nSecure transaction\nAdd a gift receipt for easy returns\nAdd to List\n3+\nFollow the author\nJenn Lueke\nJenn Lueke\nFollow\nDon’t Think About Dinner: Save Time and Money with 125+ Easy, Nourishing, Delicious Recipes for Every Meal Hardcover – January 13, 2026\nby Jenn Lueke (Author)\n4.9 \n4.9 out of 5 stars\n   (20)\n#1 Best Seller\nin Quick & Easy Cooking\nSee all formats and editions\n\nSave time, money, and energy with strategic meal planning, grocery lists, and kitchen prep. With over 125 recipes, Don’t Think About Dinner eliminates decision fatigue and makes healthy living effortless, delicious, and even fun!\n\nWhether you want to improve your health, cut down food waste (and spending), reduce your mental load, or build new kitchen skills, Don’t Think About Dinner provides everything you need to confidently approach every meal of the day—from shopping and stocking the pantry to storing and reheating leftovers, and everything in between.\n\nAs a college student, Jenn was struggling with health problems and tired of quick-fix “healthy” rec"
+    }
+  ]
+}

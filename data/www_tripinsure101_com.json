@@ -1,0 +1,65 @@
+{
+  "domain": "www.tripinsure101.com",
+  "source_url": "https://www.tripinsure101.com/",
+  "scraped_at": "2026-01-16T13:38:45.327745",
+  "title": "Trip & Vacation Insurance Marketplace: Quotes, Plans, Reviews",
+  "review_pages": {
+    "trustpilot": "https://business.trustpilot.com"
+  },
+  "reviews": {
+    "trustpilot": {
+      "rating": null,
+      "review_count": null,
+      "source": "https://business.trustpilot.com"
+    }
+  },
+  "meta_description": "TripInsure101 has 5 stars! Check out what 3,282 people have written so far, and share your own experience.",
+  "emails": [
+    "support@trustpilot.com",
+    "privacy@trustpilot.com",
+    "agent@TripInsure101.com",
+    "7ac98d0742b24421b3d38448c4bf1184@o211375.ingest.sentry.io"
+  ],
+  "socials": {
+    "linkedin": "https://www.linkedin.com/company/trustpilot/",
+    "twitter": "https://x.com/Trustpilot",
+    "instagram": "https://www.instagram.com/trustpilot/"
+  },
+  "images": [
+    "https://cdn.trustpilot.net/brand-assets/4.3.0/logo-white.svg",
+    "https://consumersiteimages.trustpilot.net/business-units/6287be3ead65d4e739997792-198x149-1x.jpg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://businessunitprofile-cdn.trustpilot.net/businessunitprofile-consumersite/public/trustpilot-shield.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg",
+    "https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-5.svg"
+  ],
+  "internal_pages": [
+    {
+      "url": "https://www.tripinsure101.com/categories/travel_insurance_company",
+      "title": "Trip & Vacation Insurance Marketplace: Quotes, Plans, Reviews",
+      "meta_description": "➦ All you need to know about Travel Insurance Comparison: Company Reviews, Plans, Coverage and Ratings.",
+      "headings": {
+        "h1": [
+          "404"
+        ],
+        "h2": [],
+        "h3": []
+      },
+      "text_sample": "Powered by\n AARDY\nHome\nTrip Insure 101\nCruise Lines\nCity Guides\nAbout Us\n\n+1(650) 397-6592\n\n404\n\nPage Not Found\n\nThe page you are looking for does not exist\n\nReturn to home\nPowered by AARDY\n\nTrip Insure 101 Inc\n\n1200 South Pine Island Road,\nPlantation, FL 33324\n\nTELEPHONE\n\n+1(650) 397-6592\n\nEMAIL\n\nAgent@TripInsure101.com\n\nHome\nKids of Heroes\nBlog\nTravel Insurance Providers\nInsurance Carriers\nLicensing Information\nContact Us\nRecruitment\n89,000 reviews\n\n© 2026 Trip Insure 101 Inc\nTerms Of Use Policy | Privacy Policy\n\nContact us"
+    }
+  ]
+}

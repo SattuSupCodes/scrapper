@@ -47,7 +47,76 @@ def scrape_page_basic(page, url):
         "text_sample": page.locator("body").inner_text()[:3000]
     }
 
+REVIEW_PLATFORMS = {
+    "trustpilot": "https://www.trustpilot.com/search?query="
+    # "yelp": "https://www.yelp.com/search?find_desc="
+}
 
+def discover_review_pages(page,company_name):
+    found = {}
+    for platform, base_url in REVIEW_PLATFORMS.items():
+        try:
+            long_delay()
+            search_url = base_url + company_name
+            page.goto(search_url, timeout = 60000)
+            human_delay(8,15)
+            human_scroll(page)
+            
+            for link in page.locator("a[href]").all():
+                href = link.get_attribute("href") or ""
+                if platform in href:
+                    found[platform]=href
+                    break
+        except:
+            continue
+    return found
+def find_rating(obj):
+    if isinstance(obj, dict):
+        if "aggregateRating" in obj:
+            ar = obj["aggregateRating"]
+            if isinstance(ar, dict):
+                return ar.get("ratingValue")
+        for v in obj.values():
+            result = find_rating(v)
+            if result:
+                return result
+    elif isinstance(obj, list):
+        for item in obj:
+            result = find_rating(item)
+            if result:
+                return result
+    return None
+
+def scrape_trustpilot(page, url):
+    long_delay()
+    page.goto(url, timeout=60000)
+    human_delay(10, 20)
+    human_scroll(page)
+    try:
+        page.locator("button:has-text('Accept')").click(timeout=5000)
+    except:
+        pass   
+    rating = None
+    review_count = None
+    scripts = page.locator("script[type='application/ld+json']").all()
+    for script in scripts:
+        try:
+            data = json.loads(script.inner_text())
+            result = find_rating(data)
+            if result:
+                rating, review_count = result 
+                break
+        except:
+            continue
+    return {"rating": rating, "review_count": review_count, "source":url}
+def safe_meta_description(page):
+    try:
+        locator = page.locator("meta[name='description']")
+        if locator.count() > 0:
+            return locator.first.get_attribute("content")
+    except:
+        pass
+    return None
 def scrape_company_site(url):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
@@ -68,9 +137,11 @@ def scrape_company_site(url):
         data["scraped_at"] = datetime.utcnow().isoformat()
 
         data["title"] = page.title()
-        data["meta_description"] = page.locator(
-            "meta[name='description']"
-        ).get_attribute("content")
+        company_name = base_domain.replace("www.", "")if data["title"] else ""
+        data["review_pages"] = discover_review_pages(page, company_name)
+        data["reviews"]={}
+        data["meta_description"] = safe_meta_description(page)
+
 
         # ---- Emails ----
         html = page.content()
@@ -137,6 +208,15 @@ def scrape_company_site(url):
                     continue
 
         data["internal_pages"] = internal_pages
+        if "trustpilot" in data["review_pages"]:
+            try:
+               data["reviews"]["trustpilot"] = scrape_trustpilot(
+               page,
+               data["review_pages"]["trustpilot"]
+)
+
+            except:
+                data["reviews"]["trustpilot"] = None
 
         # ---- Save JSON ----
         os.makedirs("data", exist_ok=True)
@@ -151,4 +231,5 @@ def scrape_company_site(url):
 
 
 if __name__ == "__main__":
-    scrape_company_site("https://www.tripadvisor.com/")
+    website = input("Enter company url: ").strip()
+    scrape_company_site(website)

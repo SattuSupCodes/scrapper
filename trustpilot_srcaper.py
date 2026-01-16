@@ -62,5 +62,5 @@ def scrape_trustpilot(url):
 
 if __name__ == "__main__":
     scrape_trustpilot(
-        "https://www.trustpilot.com/review/pepperfry.com"
+        "https://www.trustpilot.com/review/tripinsure101.com"
     )

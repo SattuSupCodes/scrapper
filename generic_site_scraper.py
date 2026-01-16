@@ -4,7 +4,22 @@ from urllib.parse import urlparse, urljoin
 import json
 from datetime import datetime
 import os
+import random
+import time
 
+def human_delay(min_s=5, max_s=15):
+    delay = random.uniform(min_s,max_s)
+    time.sleep(delay)
+def long_delay():
+    delay = random.uniform(20,40)
+    time.sleep(delay)
+def human_scroll(page):
+    try:
+        for _ in range(random.randint(2,5)):
+            page.mouse.wheel(0, random.randint(300,800))
+            time.sleep(random.uniform(1.5,3.5))
+    except:
+        pass
 
 INTERNAL_KEYWORDS = ["about", "contact", "company", "products", "services"]
 MAX_INTERNAL_PAGES = 5
@@ -14,6 +29,8 @@ MAX_IMAGES = 20
 def scrape_page_basic(page, url):
     """Scrape basic content from a single page"""
     page.goto(url, timeout=60000)
+    human_delay(6, 12)
+    human_scroll(page)
     page.wait_for_timeout(2000)
 
     return {
@@ -36,6 +53,8 @@ def scrape_company_site(url):
         browser = p.chromium.launch(headless=False)
         page = browser.new_page()
         page.goto(url, timeout=60000)
+        human_delay(6, 12)
+        human_scroll(page)
         page.wait_for_timeout(3000)
 
         parsed = urlparse(url)
@@ -132,4 +151,4 @@ def scrape_company_site(url):
 
 
 if __name__ == "__main__":
-    scrape_company_site("https://www.meta.com/")
+    scrape_company_site("https://www.tripadvisor.com/")

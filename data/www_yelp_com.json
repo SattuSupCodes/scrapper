@@ -1,0 +1,36 @@
+{
+  "domain": "www.yelp.com",
+  "source_url": "https://www.yelp.com/",
+  "scraped_at": "2026-01-16T12:18:42.332442",
+  "title": "Restaurants, Dentists, Bars, Beauty Salons, Doctors - Yelp",
+  "meta_description": "User Reviews and Recommendations of Best Restaurants, Shopping, Nightlife, Food, Entertainment, Things to Do, Services and More at Yelp",
+  "emails": [],
+  "socials": {
+    "linkedin": null,
+    "twitter": null,
+    "instagram": null
+  },
+  "images": [
+    "https://s3-media0.fl.yelpcdn.com/photo/fCVgc8NuU2yH3Sv7b5rEmw/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/OoY34YeOcX4epQB9LIvvBw/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/W4CPKDY9AIa-C6MK5W27sg/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/fCVgc8NuU2yH3Sv7b5rEmw/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/7dGN4o9ttwcpckYjK2HeHA/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/assets/public/24x24_helpful_bulb_v2.yji-927d56e36e3a11c12e58.svg",
+    "https://s3-media0.fl.yelpcdn.com/assets/public/24x24_thanks_v2.yji-1fec900fe14a2fa15c10.svg",
+    "https://s3-media0.fl.yelpcdn.com/assets/public/24x24_love_this_v2.yji-e4b17143e9d097f34029.svg",
+    "https://s3-media0.fl.yelpcdn.com/assets/public/24x24_oh_no_v2.yji-d19e61e9dc84c2e954c1.svg",
+    "https://s3-media0.fl.yelpcdn.com/photo/n8V_O9FnrltVaifcCQjeUw/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/cWDwAe31j_Mal3ZmtlJiUg/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/n8V_O9FnrltVaifcCQjeUw/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/nGMekM_XYUJjL-XEIi-EMA/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/ft2ztc4xKAfO1ukNImMorg/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/photo/n8V_O9FnrltVaifcCQjeUw/60s.jpg",
+    "https://s3-media0.fl.yelpcdn.com/bphoto/C_wHgECuULE4CUcMgMiLCw/l.jpg",
+    "https://s3-media0.fl.yelpcdn.com/assets/public/24x24_helpful_bulb_v2.yji-927d56e36e3a11c12e58.svg",
+    "https://s3-media0.fl.yelpcdn.com/assets/public/24x24_thanks_v2.yji-1fec900fe14a2fa15c10.svg",
+    "https://s3-media0.fl.yelpcdn.com/assets/public/24x24_love_this_v2.yji-e4b17143e9d097f34029.svg",
+    "https://s3-media0.fl.yelpcdn.com/assets/public/24x24_oh_no_v2.yji-d19e61e9dc84c2e954c1.svg"
+  ],
+  "internal_pages": []
+}

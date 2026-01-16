@@ -1,7 +1,7 @@
 {
   "domain": "www.tripadvisor.com",
   "source_url": "https://www.tripadvisor.com/",
-  "scraped_at": "2026-01-14T10:46:42.378247",
+  "scraped_at": "2026-01-16T12:35:12.812338",
   "title": "Tripadvisor: Over a billion reviews & contributions for Hotels, Attractions, Restaurants, and more",
   "meta_description": "Plan your next trip, read reviews and get travel advice from our community on where to stay and what to do. Find savings on hotels, book the perfect tour or attraction, and reserve a table at the best restaurants.",
   "emails": [],
@@ -9,24 +9,6 @@
     "linkedin": null,
     "twitter": "https://twitter.com/TripAdvisor",
     "instagram": "https://instagram.com/tripadvisor/"
-  },
-  "headings": {
-    "h1": [
-      "Where to?"
-    ],
-    "h2": [
-      "Find things to do by interest",
-      "Experiences travelers love",
-      "Show some love to small businesses",
-      "Inspiration to get you going",
-      "Surf’s up",
-      "Iconic places you need to see",
-      "Travelers' Choice Awards Best of the Best",
-      "Browse themed collections",
-      "Tripadvisor: join the largest travel community",
-      "Need guidance? Ask Ollie!"
-    ],
-    "h3": []
   },
   "images": [
     "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=",
@@ -50,8 +32,5 @@
     "https://static.tacdn.com/img2/brand_refresh_2025/travelers_choice/badges/2025/2025_Best_of_the_Best_Badge_Large.svg",
     "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/30/81/79/dc/caption.jpg?w=300&h=300&s=1"
   ],
-  "internal_pages": [],
-  "review_pages": {
-    "trustpilot": "https://business.trustpilot.com"
-  }
+  "internal_pages": []
 }

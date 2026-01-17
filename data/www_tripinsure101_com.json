@@ -1,24 +1,20 @@
 {
   "domain": "www.tripinsure101.com",
   "source_url": "https://www.tripinsure101.com/",
-  "scraped_at": "2026-01-16T13:38:45.327745",
+  "scraped_at": "2026-01-17T10:19:00.938476",
   "title": "Trip & Vacation Insurance Marketplace: Quotes, Plans, Reviews",
   "review_pages": {
     "trustpilot": "https://business.trustpilot.com"
   },
   "reviews": {
-    "trustpilot": {
-      "rating": null,
-      "review_count": null,
-      "source": "https://business.trustpilot.com"
-    }
+    "trustpilot": null
   },
-  "meta_description": "TripInsure101 has 5 stars! Check out what 3,282 people have written so far, and share your own experience.",
+  "meta_description": "TripInsure101 has 5 stars! Check out what 3,284 people have written so far, and share your own experience.",
   "emails": [
+    "7ac98d0742b24421b3d38448c4bf1184@o211375.ingest.sentry.io",
     "support@trustpilot.com",
-    "privacy@trustpilot.com",
     "agent@TripInsure101.com",
-    "7ac98d0742b24421b3d38448c4bf1184@o211375.ingest.sentry.io"
+    "privacy@trustpilot.com"
   ],
   "socials": {
     "linkedin": "https://www.linkedin.com/company/trustpilot/",
